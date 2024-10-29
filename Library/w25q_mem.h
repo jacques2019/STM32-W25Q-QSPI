@@ -34,7 +34,7 @@ extern "C" {
  */
 // YOUR CHIP'S SETTINGS
 /// Mem size in MB-bit
-#define MEM_FLASH_SIZE 256U 	// 256 MB-bit
+#define MEM_FLASH_SIZE 128U 	// 128 MB-bit
 /// Mem big block size in KB
 #define MEM_BLOCK_SIZE 64U		// 64 KB: 256 pages
 /// Mem small block size in KB

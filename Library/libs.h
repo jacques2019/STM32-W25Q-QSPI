@@ -21,6 +21,6 @@ typedef int16_t i16_t;	///< 16-bit signed
 typedef uint32_t u32_t; ///< 32-bit unsigned
 typedef int32_t i32_t;	///< 32-bit signed
 
-#define delay(x) osDelay(x) ///< arduino-supportable delay or RTOS support ability
+#define delay(x) HAL_Delay(x) ///< arduino-supportable delay or RTOS support ability
 
 #endif /* LIBS_H_ */
